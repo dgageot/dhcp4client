@@ -12,7 +12,7 @@ import (
 func Test_ExampleClient(test *testing.T) {
 	var err error
 
-	m, err := net.ParseMAC("08-00-27-00-A8-E8")
+	m, err := net.ParseMAC("DC-53-60-D8-5E-D8")
 	if err != nil {
 		log.Printf("MAC Error:%v\n", err)
 	}
